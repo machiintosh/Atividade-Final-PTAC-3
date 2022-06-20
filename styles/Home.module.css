@@ -1,0 +1,126 @@
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #282834;
+}
+
+.main {
+  padding: 5rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nome {
+  color: #329FF8;
+  font-style: Heveltica Neue;
+  font-size: 40px;
+}
+
+.menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-width: 100%;
+  height: 70px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.menu1{
+  display: flex;
+  flex-direction: row;
+  min-width: 85%;
+  justify-content: left;
+  align-items: left;
+}
+.menu2{
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: right;
+}
+.menuopc{
+  margin-left: 12px;
+  font-size: 24px;
+  color: #E8F1FF;
+}
+.menuselect {
+  margin-left: 12px;
+  font-size: 24px;
+  color: #329FF8;
+  text-decoration: underline;
+}
+
+.btnG {
+  padding: 14px;
+  background-color: #329FF8;
+  color: #E8F1FF;
+  font-size: 36px;
+  border-radius: 20px;
+  margin: 32px;
+  margin-bottom: 0px;
+}.btnG:hover{
+  cursor:pointer;
+}
+
+.indexTxt {
+  color: #E8F1FF;
+  font-size: 32px;
+}
+
+.card{
+  background-color: #566D85;
+  padding: 12px;
+  margin: 12px;
+  margin-bottom: 24px;
+  border-radius: 20px;
+  width: 300px;
+  color: #E8F1FF;
+}
+
+.btnCard {
+  background-color: #329FF8;
+  border: 0;
+  color: #E8F1FF;
+  padding: 4px;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 25px;
+  width: 100%;
+  display: flex;
+  margin-top: 8px;
+  justify-content: center;
+}.btnCard:hover, .selectSelect:hover, .selectTxt:hover{
+  cursor:pointer;
+}
+
+.titleCard {
+  color: #CCF2FD;
+  font-size: 24px;
+}
+
+.grid {
+  display: flex;
+  direction: rows;
+  width: 80%;
+}
+
+.selectDiv {
+  margin: 32px;
+}.selectTxt {
+  color: #E8F1FF;
+  font-size: 36px;
+  margin: 16px;
+}.selectSelect {
+  text-decoration: underline;
+  color: #CCF2FD;
+  font-size: 36px;
+  margin: 16px;
+}
